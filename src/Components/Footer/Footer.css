@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer {
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top-left h2{
+    position: relative;
+    font-family: "MuseoModerno", sans-serif;
+}
+
+.footer-top-left h2::after {
+    content: '';
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    width: 75px;
+    height: 3.2px;
+    background-color: #d76f30;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.footer-top-left p{
+    font-size: 18px;
+    max-width: 500px;
+    margin-top: 10px;
+    color: #D8D8D8;
+}
+
+.footer-top-right {
+    margin-right: 40px;
+}
+
+.footer-top-right ul {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-top-right ul li{
+    list-style: none;
+    margin-left: 10px;
+    color: #D8D8D8;
+}
+
+.footer-top-right ul li:hover {
+    color: #bd7c53;
+    transform: scale(1.08);
+}
+
+.footer-bottom-left p {
+    color: #D8D8D8;
+}
+
+@media (max-width:768px) {
+    .footer {
+        margin: 50px 70px;
+    }
+    .footer-top {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-top-left h2::after {
+        left: 20%;
+    }
+    .footer-top-left p{
+        font-size: 15px;
+    }
+    .footer-bottom-left p {
+        font-size: 15px;
+    }
+
+}
