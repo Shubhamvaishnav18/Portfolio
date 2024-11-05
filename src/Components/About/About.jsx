@@ -18,7 +18,7 @@ const About = () => {
                         <p>I integrate databases, APIs, and tools to deliver seamless, high-performance experiences, turning concepts into polished digital solutions with expertise in various languages and frameworks.</p>
                         <p>I work with the MERN stack, utilizing MongoDB for efficient database management, Express.js for backend routing, React for building dynamic user interfaces, and Node.js for server-side logic.</p>
                     </div>
-                    <a href="https://drive.google.com/file/d/1Zd2ucEXCEszNYAjXanxFQMax5anVGf20/view?usp=sharing" className="resume">Resume</a>
+                    <a href="https://drive.google.com/file/d/1A3SWeys4OVfqcY2rjyHVqeBeqTkR4zSZ/view?usp=sharing" className="resume">Resume</a>
                 </div>
             </div>
         </div>
