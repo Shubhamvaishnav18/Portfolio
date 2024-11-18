@@ -57,6 +57,10 @@
     transform: scale(1.08);
 }
 
+.leetcode_logo img{
+    width: 29px;
+}
+
 .footer-bottom-left p {
     color: #D8D8D8;
 }

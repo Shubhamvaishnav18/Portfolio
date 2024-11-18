@@ -5,6 +5,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import MailIcon from '@mui/icons-material/Mail';
 
 const Footer = () => {
+
+    const logo = 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png';
+
     return (
         <div className="footer">
             <div className="footer-top">
@@ -17,6 +20,7 @@ const Footer = () => {
                     <ul>
                         <li><a href="https://www.linkedin.com/in/shubham-vaishnav-2399742a3/"><LinkedInIcon/></a></li>
                         <li><a href="https://github.com/Shubhamvaishnav18"><GitHubIcon/></a></li>
+                        <li><a href="https://leetcode.com/u/shubhamvaishnav332/" className='leetcode_logo'><img src={logo} alt="" /></a></li>
                         <li><a href="mailto:shubhamvaishnav332@gmail.com"><MailIcon/></a></li>
                     </ul>
                 </div>

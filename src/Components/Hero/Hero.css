@@ -54,6 +54,10 @@
     display: none;
 }
 
+.icons .leetcode_logo img{
+    width: 29px;
+}
+
 @media (max-width: 600px) {
     .hero {
         width: 90%;
