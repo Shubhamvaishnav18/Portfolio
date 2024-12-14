@@ -3,6 +3,7 @@ import './Contact.css'
 import call_icon from '../../assets/call_icon.svg';
 import mail_icon from '../../assets/mail_icon.svg';
 import location_icon from '../../assets/location_icon.svg';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
 
@@ -25,8 +26,10 @@ const Contact = () => {
         }).then((res) => res.json());
     
         if (res.success) {
-          alert(res.message);
+          //alert(res.message);
+          toast.success("E-mail sent successfully!");
         }
+
       };
 
     return (

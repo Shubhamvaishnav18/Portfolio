@@ -7,12 +7,15 @@ import Skillspage from "./pages/Skills/Skillspage"
 import Projectspage from "./pages/Projects/Projectspage"
 import Aboutpage from "./pages/About/Aboutpage"
 import Contactpage from "./pages/Contact/Contactpage"
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
 
   return (
     <>
+    <ToastContainer />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
