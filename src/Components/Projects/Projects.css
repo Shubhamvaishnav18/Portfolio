@@ -34,11 +34,11 @@
     overflow: hidden;
     width: 350px;
     box-shadow: 0 4px 8px #7da2a9;
-    transition: transform 0.3s;
+    transition: transform 0.9s ease-in-out; 
   }
   
   .project-card:hover {
-    transform: scale(1.05);
+    transform: rotate(360deg); 
   }
   
   .project-image {
