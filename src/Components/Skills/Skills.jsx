@@ -26,12 +26,14 @@ const Skills = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>ReactJS</li>
             <li>TailwindCSS</li>
             <li>Bootstrap</li>
             <li>EJS</li>
             <li>Node.js</li>
             <li>Express.js</li>
+            <li>Firebase</li>
           </ul>
         </div>
         
@@ -43,6 +45,7 @@ const Skills = () => {
             <li>MySql</li>
             <li>Git</li>
             <li>GitHub</li>
+            <li>Figma</li>
             <li>AWS</li>
             <li>Postman</li>
             <li>Canva</li>
