@@ -25,6 +25,7 @@ const Navbar = () => {
                 <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
                 <li><NavLink to='/'>Home</NavLink></li>
                 <li><NavLink to='/skills'>Skills</NavLink></li>
+                <li><NavLink to='/experience'>Experience</NavLink></li>
                 <li><NavLink to='/projects'>Projects</NavLink></li>
                 <li><NavLink to='/about'>AboutMe</NavLink></li>
                 <li><NavLink to='/contact'>ContactMe</NavLink></li>
