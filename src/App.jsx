@@ -9,6 +9,7 @@ import Aboutpage from "./pages/About/Aboutpage"
 import Contactpage from "./pages/Contact/Contactpage"
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Experience from "./Components/Experience/Experience"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/skills" element={<Skillspage />} />
+        <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projectspage />} />
         <Route path="/about" element={<Aboutpage />} />
         <Route path="/contact" element={<Contactpage />} />
