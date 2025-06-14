@@ -18,7 +18,7 @@ const About = () => {
                         <p>I'm currently working full-time as a Full Stack Developer at Bizowl while also completing a part-time React JS internship at Celebal Technologies.</p>
                         <p>I work with the MERN stack, utilizing MongoDB for efficient database management, Express.js for backend routing, React for building dynamic user interfaces, and Node.js for server-side logic.</p>
                     </div>
-                    <a href="https://drive.google.com/file/d/1A3SWeys4OVfqcY2rjyHVqeBeqTkR4zSZ/view?usp=sharing" className="resume">Resume</a>
+                    <a href="https://drive.google.com/file/d/1gd-2Cr_r6C_1YCV_fRwSwTcz5PRdGWYz/view?usp=sharing" className="resume">Resume</a>
                 </div>
             </div>
         </div>
