@@ -50,10 +50,10 @@ const Projects = () => {
             <h3>coffeeShop</h3>
             <p>This website (only frontend) is an engaging platform for browsing, ordering, and learning about a wide range of coffee offerings.</p>
             <div className="verfy-links">
-            <a href="https://shubhamvaishnav18.github.io/coffee-shop/" target="_blank" rel="noopener noreferrer" className="project-link">
+            <a href="https://coffee-shop-ten-lac.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
               WebLink
             </a>
-            <a href="https://coffee-shop-ten-lac.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+            <a href="https://shubhamvaishnav18.github.io/coffee-shop/" target="_blank" rel="noopener noreferrer" className="project-link">
               GithubLink
             </a>
             </div>
