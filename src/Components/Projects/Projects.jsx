@@ -53,7 +53,7 @@ const Projects = () => {
             <a href="https://shubhamvaishnav18.github.io/coffee-shop/" target="_blank" rel="noopener noreferrer" className="project-link">
               WebLink
             </a>
-            <a href="https://github.com/Shubhamvaishnav18/coffee-shop" target="_blank" rel="noopener noreferrer" className="project-link">
+            <a href="https://coffee-shop-ten-lac.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
               GithubLink
             </a>
             </div>
