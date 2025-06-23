@@ -26,7 +26,7 @@ const experiences = [
     role: "Website & Data Management Coordinator",
     duration: "Dec 2024 - May 2025",
     location: "Hisar, Haryana, India • On-Site",
-    certificate: "https://drive.google.com/file/d/1d2was9oWMxL-SOwz_EwjxModD-W68U9Y/view?usp=sharing",
+    certificate: "https://drive.google.com/file/d/1p18iuF4Sr1K-9fIJ38UoJ1yz9iwMvBzd/view?usp=sharing",
     description:
       "Create organization websites, ensured data integrity, managed updates, and coordinated with cross-functional teams for efficient data flow.",
   },
